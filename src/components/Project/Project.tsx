@@ -11,62 +11,55 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
 
-      <ScrollAnimation animateIn="flipInX">
-  <div className="project">
-    <header>
-      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-        <title>Folder</title>
-        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-      </svg>
-      <div className="project-links">
-        <a href="https://github.com/rushiparkhe18/PROTIGY-HIRE" target="_blank" rel="noreferrer">
+        
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+               
+                <a href="https://github.com/rushiparkhe18/PROTIGY-HIRE" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="GitHub" />
         </a>
-      </div>
-    </header>
-    <div className="body">
-      <h3>ProdigyHire: Smart Campus Recruitment System</h3>
+                </div>
+            </header>
+            <div className="body">
+               <h3>ProdigyHire: Smart Campus Recruitment System</h3>
       <p>
         A smart, full-stack recruitment management platform built for campuses. It allows students to create resumes, apply for jobs, and track progress. Admins and recruiters can post job openings, shortlist candidates, and manage interview schedules. Built with a role-based system (Admin | Student | Recruiter), it provides a seamless, paperless, and efficient hiring experience.
       </p>
-    </div>
-    <footer>
-      <ul className="tech-list">
+            </div>
+            <footer>   <ul className="tech-list">
         <li>Node.js</li>
         <li>Express.js</li>
         <li>MongoDB</li>
         <li>EJS</li>
-      </ul>
-    </footer>
-  </div>
-</ScrollAnimation>
+      </ul> </footer>
+          </div>
+        </ScrollAnimation>
 
-
-<ScrollAnimation animateIn="flipInX">
-  <div className="project">
-    <header>
-      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-        <title>Folder</title>
-        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-      </svg>
-      <div className="project-links">
-        {/* Add GitHub or live demo link here if available */}
-        {/* <a href="https://github.com/your-repo" target="_blank" rel="noreferrer">
-          <img src={githubIcon} alt="GitHub" />
-        </a> */}
-      </div>
-    </header>
-    <div className="body">
-      <h3>Tarakpath: Maritime Navigation Platform</h3>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+               
+                {/* <a href="https://prescripto-frontend-beige.vercel.app" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a> */}
+              </div>
+            </header>
+            <div className="body">
+              <h3>Tarakpath: Maritime Navigation Platform</h3>
       <p>
         A web-based maritime navigation platform that combines real-time marine and weather data with a custom A* pathfinding engine
         to chart the fastest, most fuel-efficient sea routes. The system helps reduce operational costs and minimize environmental impact
         through smart route optimization. <br /><br />
         
       </p>
-    </div>
-    <footer>
-      <ul className="tech-list">
+            </div>
+            <footer>
+              <ul className="tech-list">
         <li>React.js</li>
         <li>Node.js</li>
         <li>Express.js</li>
@@ -76,33 +69,6 @@ export function Project() {
         <li>Leaflet.js</li>
         <li>REST APIs</li>
       </ul>
-    </footer>
-  </div>
-</ScrollAnimation>
-
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-               
-                <a href="https://prescripto-frontend-beige.vercel.app" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Prescripto: Doctor Appointment System</h3>
-              <p>
-                A healthcare platform that allows users to book doctor appointments based on ratings and specific diseases. It includes secure storage for medical reports and features an AI-powered chatbot for symptom-based disease prediction. Designed to simplify healthcare access and improve diagnosis accuracy.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React</li>
-                <li>Node</li>
-                <li>MySQL</li>
-              </ul>
             </footer>
           </div>
         </ScrollAnimation>
@@ -113,12 +79,72 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/rushiparkhe18/TrimbakRajAgro-Tech.git" target="_blank" rel="noreferrer">
+               <a href="https://prescripto-frontend-beige.vercel.app" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a>
+                {/* <a href="https://trimbakrajagro-tech.netlify.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> */}
+              </div>
+            </header>
+            <div className="body">
+              <h3>Prescripto: Doctor Appointment System</h3>
+              <p>
+                A healthcare platform that allows users to book doctor appointments based on ratings and specific diseases. It includes secure storage for medical reports and features an AI-powered chatbot for symptom-based disease prediction. Designed to simplify healthcare access and improve diagnosis accuracy.
+              </p>
+            </div>
+            <footer>
+               <ul className="tech-list">
+                <li>React</li>
+                <li>Node</li>
+                <li>MySQL</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/Krishnap2k4/Recipie-app" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                {/* <a href="https://trimbakrajagro-tech.netlify.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> */}
+              </div>
+            </header>
+            <div className="body">
+              <h3>Recipe Wizard</h3>
+              <p>A community-driven recipe app that allows users to share, browse, like, and comment on recipes. Integrated with an AI-powered chatbot for real-time cooking assistance and an AI-based recommendation engine that suggests personalized recipes based on user preferences and behavior.</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                
+                <li>Next.js</li>
+                <li>Gemini API</li>
+                <li>MySQL</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+ 
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Code</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+               <a href="https://github.com/rushiparkhe18/TrimbakRajAgro-Tech.git" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
                 <a href="https://trimbakrajagrotech.in//" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
+               
+                
               </div>
             </header>
             <div className="body">
@@ -126,7 +152,7 @@ export function Project() {
               <p>Trimbak Raj Agro Tech is a multilingual website for an agritech company specializing in organic crop solutions. It showcases products like fertilizers and growth enhancers with detailed usage guides. The platform supports English, Hindi, and Marathi for wider regional reach. Built with a clean layout, it helps farmers access essential product information easily.</p>
             </div>
             <footer>
-              <ul className="tech-list">
+               <ul className="tech-list">
                 
                 <li>HTML</li>
                 <li>CSS</li>
@@ -135,38 +161,6 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-  <div className="project">
-    <header>
-      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-        <title>Code</title>
-        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-      </svg>
-      <div className="project-links">
-        <a href="https://kaleidoscopic-cannoli-be2ca7.netlify.app/" target="_blank" rel="noreferrer">
-          <img src={externalLink} alt="Live Site" />
-        </a>
-      </div>
-    </header>
-    <div className="body">
-      <h3>FrameBuzz Media Website</h3>
-      <p>
-        A full-stack website developed for <strong>FrameBuzz Media</strong>, a dynamic digital marketing agency specializing in commercial production, event videography, brand campaigns, and social media strategy. The platform highlights their creative services including ad filmmaking, photography, post-production, influencer outreach, and marketing automation across platforms like Instagram, YouTube, WhatsApp, and Meta Ads. <br /><br />
-        The website features service showcases, a portfolio gallery, client testimonials, custom inquiry forms, and a content management backend — all optimized for lead generation and SEO. Built using the MERN stack to ensure scalability, speed, and responsiveness across devices.
-      </p>
-    </div>
-    <footer>
-      <ul className="tech-list">
-        <li>MongoDB</li>
-        <li>Express.js</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-      </ul>
-    </footer>
-  </div>
-</ScrollAnimation>
-
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -202,62 +196,59 @@ export function Project() {
         </ScrollAnimation>
 
         
-        <ScrollAnimation animateIn="flipInX">
-  <div className="project">
-    <header>
-      <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-        <title>Folder</title>
-        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-      </svg>
-      <div className="project-links">
-        <a href="https://gbstaworld.com/" target="_blank" rel="noreferrer">
-          <img src={externalLink} alt="Visit site" />
-        </a>
-      </div>
-    </header>
-    <div className="body">
-      <h3>Ameeri – The Beer Experience</h3>
-      <p>
-        At <strong>Ameeri</strong>, we don’t just brew beer—we craft stories, moments, and unforgettable experiences. Infused with tradition and refined through innovation, Ameeri is redefining India’s brewing culture with bold flavors and artisanal care. <br /><br />
-        Born in the heart of Nashik—India’s wine and brewing capital—Ameeri stands as a symbol of modern craftsmanship and regional pride. The website serves as a digital gateway to the brand, featuring immersive visuals, product showcases, event highlights, and a celebration of everything beer stands for: community, heritage, and celebration.
-      </p>
-    </div>
-    <footer>
-      <ul className="tech-list">
-        <li>React</li>
-        <li>TypeScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-    </footer>
-  </div>
-</ScrollAnimation>
-
-
-        {/* <ScrollAnimation animateIn="flipInX">
+        { <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://justmedicalbooks.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
+                <a href="https://kaleidoscopic-cannoli-be2ca7.netlify.app/" target="_blank" rel="noreferrer">
+          <img src={externalLink} alt="Live Site" />
+        </a>
               </div>
             </header>
             <div className="body">
-              <h3>MedicalBooks - Book Selling Site</h3>
-              <p>
-                This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
-              </p>
+               <h3>FrameBuzz Media Website</h3>
+      <p>
+        A full-stack website developed for <strong>FrameBuzz Media</strong>, a dynamic digital marketing agency specializing in commercial production, event videography, brand campaigns, and social media strategy. The platform highlights their creative services including ad filmmaking, photography, post-production, influencer outreach, and marketing automation across platforms like Instagram, YouTube, WhatsApp, and Meta Ads. <br /><br />
+        The website features service showcases, a portfolio gallery, client testimonials, custom inquiry forms, and a content management backend — all optimized for lead generation and SEO. Built using the MERN stack to ensure scalability, speed, and responsiveness across devices.
+      </p>
+            </div>
+            <footer>
+               <ul className="tech-list">
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>TailwindCss</li>
+       
+      </ul>
+            </footer>
+          </div>
+        </ScrollAnimation> }
+
+        { <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://gbstaworld.com/" target="_blank" rel="noreferrer">
+          <img src={externalLink} alt="Visit site" />
+        </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Ameeri – The Beer Experience</h3>
+      <p>
+        At <strong>Ameeri</strong>, we don’t just brew beer—we craft stories, moments, and unforgettable experiences. Infused with tradition and refined through innovation, Ameeri is redefining India’s brewing culture with bold flavors and artisanal care. <br /><br />
+        Born in the heart of Nashik—India’s wine and brewing capital—Ameeri stands as a symbol of modern craftsmanship and regional pride. The website serves as a digital gateway to the brand, featuring immersive visuals, product showcases, event highlights, and a celebration of everything beer stands for: community, heritage, and celebration.
+      </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
+                <li>HTML</li>
+                <li>CSS</li>
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation> }
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
